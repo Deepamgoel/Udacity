@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_marginBottom="@dimen/margin_png_bottom"
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/image_h"
+                android:layout_alignParentTop="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/udacity01"
+                android:contentDescription="@string/banner_img" />
+
+            <ImageView
+                android:layout_marginTop="@dimen/margin_png_top"
+                android:layout_marginStart="@dimen/margin_png_left"
+                android:id="@+id/phone_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/phone"
+                android:layout_below="@id/image"
+                android:layout_alignParentStart="true"
+                android:contentDescription="@string/phone_png" />
+
+            <ImageView
+                android:layout_marginTop="@dimen/margin_png_top"
+                android:layout_marginEnd="@dimen/margin_png_right"
+                android:id="@+id/web_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/website"
+                android:layout_below="@id/image"
+                android:layout_alignParentEnd="true"
+                android:contentDescription="@string/website_png" />
+
+            <TextView
+                android:layout_marginTop="@dimen/margin_txt_top"
+                android:layout_marginBottom="@dimen/margin_txt_bottom"
+                android:layout_marginStart="@dimen/margin_txt_left"
+                android:id="@+id/phone_string"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="@string/phone_no"
+                android:textSize="@dimen/txt_size"
+                android:textColor="@color/text_color"
+                android:layout_below="@id/phone_img"
+                android:layout_alignParentStart="true"/>
+
+            <TextView
+                android:layout_marginTop="@dimen/margin_txt_top"
+                android:layout_marginBottom="@dimen/margin_txt_bottom"
+                android:layout_marginEnd="@dimen/margin_txt_right"
+                android:id="@+id/web_string"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="@string/website"
+                android:textSize="@dimen/txt_size"
+                android:textColor="@color/text_color"
+                android:layout_below="@id/web_img"
+                android:layout_alignParentEnd="true"/>
+
+            <ImageView
+                android:layout_marginTop="@dimen/margin_png_top"
+                android:id="@+id/map_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/map"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/phone_string"
+                android:contentDescription="@string/map_png" />
+
+            <TextView
+                android:layout_marginTop="@dimen/margin_txt_top"
+                android:layout_marginBottom="@dimen/margin_txt_bottom"
+                android:id="@+id/map_string"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="@string/address"
+                android:textSize="@dimen/txt_size"
+                android:textColor="@color/text_color"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/map_img"/>
+
+            <TextView
+                android:layout_marginTop="@dimen/margin_top"
+                android:layout_below="@id/map_string"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/thanks"
+                android:background="@color/header_color"
+                android:text="@string/thanks"
+                android:textSize="@dimen/txt_size"
+                android:gravity="center"
+                android:textStyle="italic|bold"
+                android:textColor="@android:color/white" />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <TextView
+        android:background="@color/header_color"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_h"
+        android:text="@string/header"
+        android:textSize="@dimen/header_size"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@android:color/white" />
+
+    <ImageView
+        android:layout_width="@dimen/logo_w"
+        android:layout_height="@dimen/logo_h"
+        android:id="@+id/logo"
+        android:src="@drawable/udacity02"
+        android:contentDescription="@string/header_logo" />
+
+
+
+</RelativeLayout>

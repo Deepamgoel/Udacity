@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Udacity</string>
+    <string name="header">UDACITY</string>
+    <string name="header_logo">Logo</string>
+
+    <string name="phone_no">650–555–5555</string>
+    <string name="website">www.udacity.com</string>
+    <string name="address">2465 Latham St \nMountain View, CA 94043</string>
+
+    <string name="map_png">map</string>
+    <string name="website_png">website</string>
+    <string name="phone_png">phone</string>
+
+    <string name="banner_img">banner</string>
+    <string name="thanks">Learn. Think. Do.</string>
+</resources>

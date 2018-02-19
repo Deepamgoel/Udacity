@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="logo_w">60dp</dimen>
+    <dimen name="logo_h">60dp</dimen>
+
+    <!--<dimen name="header_w">match_parent</dimen>-->
+    <dimen name="header_h">60dp</dimen>
+    <dimen name="header_size">30sp</dimen>
+
+    <dimen name="margin_top">60dp</dimen>
+
+    <dimen name="padding">10dp</dimen>
+    <dimen name="padding_top">10dp</dimen>
+    <dimen name="padding_left">10dp</dimen>
+    <dimen name="padding_down">10dp</dimen>
+    <dimen name="padding_right">10dp</dimen>
+
+    <dimen name="image_h">200dp</dimen>
+
+    <dimen name="margin_txt_top">20dp</dimen>
+    <dimen name="margin_txt_left">25dp</dimen>
+    <dimen name="margin_txt_right">15dp</dimen>
+    <dimen name="margin_txt_bottom">20dp</dimen>
+    <dimen name="txt_size">20sp</dimen>
+
+    <dimen name="margin_png_top">20dp</dimen>
+    <dimen name="margin_png_left">60dp</dimen>
+    <dimen name="margin_png_right">75dp</dimen>
+    <dimen name="margin_png_bottom">20dp</dimen>
+</resources>
